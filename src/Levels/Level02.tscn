@@ -40,7 +40,7 @@ position = Vector2( 180, 480 )
 limit_right = 6080
 
 [node name="Portal2D" parent="." instance=ExtResource( 6 )]
-position = Vector2( 4060, 80 )
+position = Vector2( 4398.31, 97.7535 )
 next_scene = ExtResource( 5 )
 
 [node name="Coins" type="Node2D" parent="."]
@@ -105,16 +105,16 @@ position = Vector2( 3330, -50 )
 [node name="Enemies" type="Node2D" parent="."]
 
 [node name="Enemy" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 1800, 950 )
+position = Vector2( 1800, 960 )
 
 [node name="Enemy2" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( 1050, 960 )
 
 [node name="Enemy3" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 2550, 950 )
+position = Vector2( 2550, 960 )
 
 [node name="Enemy4" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 4230, 950 )
+position = Vector2( 4230, 960 )
 
 [node name="Enemy5" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( 5810, 960 )
